@@ -27,9 +27,8 @@
 - Dicover which variables are significant in predicting the price of a house, and how well those variables describe the price of a house.
 
 ## Conclusions
-Some of the variables that correlate strongly to the model are.
 1. Chose a Lasso Regression because Lasso Regression performs RFE, which will be useful to reduce the large number of feature columns, as many of the feature columns do not contribute to the dependent variable or are highly correlated, and they have to be eliminated.
-2. Neighborhood feature columns is one when one-hot-encoded. Some neighborhood areas correlate strongly to the housing prices, such as NridgHt,StoneBr and NoRidge.	Another column which correlates is HouseStyle,in particular 2Story.
+2. Neighborhood feature columns is a feature column that can strongly predict housing prices when one-hot-encoded. Some neighborhood areas correlate strongly to the housing prices, such as NridgHt,StoneBr and NoRidge.	Another column which correlates is HouseStyle,in particular 2Story.
 3. Continous, numeric featuers such as ExterQual and 2ndFlrSF were also found to have correlated strongly.
 
 
